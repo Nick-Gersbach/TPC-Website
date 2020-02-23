@@ -1,0 +1,50 @@
+/* Global Stylings */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Main Navigation */
+
+nav {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1rem;
+}
+
+nav .main-logo {
+    font-family: 'Anton';
+    font-size: 42px;
+    border-bottom: none;
+    cursor: pointer;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    transition: ease-in .4;
+}
+
+nav a:hover {
+    border-bottom: 3px solid lightblue;
+}
+
+
